@@ -1,0 +1,19 @@
+$prefix: 'rct' !default;
+
+$head-row-height: 27px !default;
+$body-row-height: 27px !default;
+
+$table-head-column-bg-color: #fafafa !default;
+$table-head-column-border-color: #eeeeee !default;
+
+$table-body-row-bg-color-odd: #fafafa !default;
+$table-body-row-bg-color-even: transparent !default;
+$table-body-row-bg-color-selected: #eff6ff !default;
+$table-body-row-border-color-selected: #bfdbfe !default;
+$table-body-row-border-color-actived: #1d4ed8 !default;
+
+$wrapper-bg-color: white !default;
+$wrapper-bg-image: linear-gradient(180deg, $table-body-row-bg-color-odd 50%, $table-body-row-bg-color-even 0%) !default;
+$wrapper-bg-size: $body-row-height * 2 $body-row-height * 2 !default;
+$wrapper-bg-position: 0 $head-row-height !default;
+$wrapper-bg-attachment: local !default;

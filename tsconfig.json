@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "declarationDir": "dist",
+    "module": "ESNext",
+    "target": "ES5",
+    "jsx": "react",
+    "lib": ["ES5", "ES6", "ES7", "ES2017", "ES2018", "ES2019", "ES2020", "ESNext", "DOM"],
+    "types": ["node"],
+    "sourceMap": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
